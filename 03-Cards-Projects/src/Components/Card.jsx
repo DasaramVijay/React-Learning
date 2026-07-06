@@ -1,12 +1,19 @@
 import React from 'react'
-import {RiBookmarkLine} from '@remixicon/react'
+import Button from './Button'
 
 const Card = (props) => {
+
+  // function btn(){
+  //   const handleClick = (val) =>{
+  //     console.log(val);
+  //   }
+  // }
   return (
     <div className="cards">
         <div className="top">
           <img src={props.logo} alt="Amazon Logo" />
-          <button>Save <RiBookmarkLine size={13}/></button>
+          {/* <button>Save <RiBookmarkLine size={13}/></button> */}
+          <Button />
         </div>
         <div className="center">
           <h3>{props.company} <span>{props.posted}</span></h3>
