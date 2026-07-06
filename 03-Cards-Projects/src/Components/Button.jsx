@@ -30,7 +30,7 @@ const Button = () => {
     <div>
       <button onClick={() => setSaved(!saved)}
         style={{
-          color: saved ? "black" : "gray",
+          color: saved ? "black" : "gray04",
         }}>
         {saved ? (
           <>
