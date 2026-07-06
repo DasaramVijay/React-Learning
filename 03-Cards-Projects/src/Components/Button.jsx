@@ -30,11 +30,11 @@ const Button = () => {
     <div>
       <button onClick={() => setSaved(!saved)}
         style={{
-          color: saved ? "black" : "gray04",
+          color: saved ? "black" : "gray",
         }}>
         {saved ? (
           <>
-            Saved <RiBookmarkFill size={15} />
+            Saved <RiBookmarkFill size={15}/>
           </>
         ) : (
           <>
